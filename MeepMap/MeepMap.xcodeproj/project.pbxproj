@@ -131,12 +131,11 @@
 		C5C832162988377C0042B491 /* MeepMap */ = {
 			isa = PBXGroup;
 			children = (
-				C5C832172988377C0042B491 /* AppDelegate.swift */,
-				C5C832192988377C0042B491 /* SceneDelegate.swift */,
-				C5C8321B2988377C0042B491 /* ViewController.swift */,
-				C5C8321D2988377C0042B491 /* Main.storyboard */,
+				C5D122E12988480E00746B89 /* Presentation */,
+				C5D122E02988480900746B89 /* Data */,
+				C5D122DF2988480400746B89 /* Domain */,
+				C5D122DE298847FE00746B89 /* Core */,
 				C5C832202988377C0042B491 /* Assets.xcassets */,
-				C5C832222988377C0042B491 /* LaunchScreen.storyboard */,
 				C5C832252988377C0042B491 /* Info.plist */,
 				C5D122DC298846A300746B89 /* keys.plist */,
 			);
@@ -158,6 +157,39 @@
 				C5C8323A2988377C0042B491 /* MeepMapUITestsLaunchTests.swift */,
 			);
 			path = MeepMapUITests;
+			sourceTree = "<group>";
+		};
+		C5D122DE298847FE00746B89 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C5D122DF2988480400746B89 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C5D122E02988480900746B89 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C5D122E12988480E00746B89 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C5C832172988377C0042B491 /* AppDelegate.swift */,
+				C5C832222988377C0042B491 /* LaunchScreen.storyboard */,
+				C5C8321D2988377C0042B491 /* Main.storyboard */,
+				C5C8321B2988377C0042B491 /* ViewController.swift */,
+				C5C832192988377C0042B491 /* SceneDelegate.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		EF318850A18ED130DB85724D /* Frameworks */ = {
@@ -183,6 +215,7 @@
 				C5C832122988377C0042B491 /* Resources */,
 				6648F16F2EADCC3A6D2D12C3 /* [CP] Embed Pods Frameworks */,
 				A0E4ED92469269CE1C3032B5 /* [CP] Copy Pods Resources */,
+				C54BDAAF2988495E0051796B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -421,6 +454,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C54BDAAF2988495E0051796B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		D4E9E577304FD3C9A3C77A37 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

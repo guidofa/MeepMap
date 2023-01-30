@@ -10,6 +10,7 @@ target 'MeepMap' do
   pod 'Swinject', '2.7.1'
   pod 'Moya/RxSwift', '15.0.0'
   pod 'GoogleMaps'
+  pod 'SwiftLint'
 
   target 'MeepMapTests' do
     inherit! :search_paths
