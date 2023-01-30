@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.6.1)
+  - GoogleMaps (4.0.0):
+    - GoogleMaps/Maps (= 4.0.0)
+  - GoogleMaps/Base (4.0.0)
+  - GoogleMaps/Maps (4.0.0):
+    - GoogleMaps/Base
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxSwift (6.2.0)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Moya/RxSwift (= 15.0.0)
+  - RxSwift (= 6.2.0)
+  - Swinject (= 2.7.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - Moya
+    - RxSwift
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: 58c33cc478aafd6d70cac91772ae79af8a1f4d8c
+
+COCOAPODS: 1.11.3

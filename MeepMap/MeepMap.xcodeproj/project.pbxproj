@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12EBADC1BC8000BC633A78CF /* Pods_MeepMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF74FF4E025D592E2D8C38D9 /* Pods_MeepMap.framework */; };
+		88404F55B22DCC0996B8055C /* Pods_MeepMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D29B4FCC2604DA48A360A1F /* Pods_MeepMapTests.framework */; };
 		C5C832182988377C0042B491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832172988377C0042B491 /* AppDelegate.swift */; };
 		C5C8321A2988377C0042B491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832192988377C0042B491 /* SceneDelegate.swift */; };
 		C5C8321C2988377C0042B491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8321B2988377C0042B491 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		C5C8322F2988377C0042B491 /* MeepMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8322E2988377C0042B491 /* MeepMapTests.swift */; };
 		C5C832392988377C0042B491 /* MeepMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832382988377C0042B491 /* MeepMapUITests.swift */; };
 		C5C8323B2988377C0042B491 /* MeepMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8323A2988377C0042B491 /* MeepMapUITestsLaunchTests.swift */; };
+		D25E6044618674B44363AA78 /* Pods_MeepMap_MeepMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3438481E4F2C273F4727B320 /* Pods_MeepMap_MeepMapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0352213516D7880CA18A3172 /* Pods-MeepMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMap.release.xcconfig"; path = "Target Support Files/Pods-MeepMap/Pods-MeepMap.release.xcconfig"; sourceTree = "<group>"; };
+		0D29B4FCC2604DA48A360A1F /* Pods_MeepMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FAEC9B2731E2569F8AC6CB /* Pods-MeepMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMap.debug.xcconfig"; path = "Target Support Files/Pods-MeepMap/Pods-MeepMap.debug.xcconfig"; sourceTree = "<group>"; };
+		3438481E4F2C273F4727B320 /* Pods_MeepMap_MeepMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepMap_MeepMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FFF784994EE93FE16DFDE7 /* Pods-MeepMap-MeepMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMap-MeepMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE72BEBCAB8CD27B00C9B86D /* Pods-MeepMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMapTests.release.xcconfig"; path = "Target Support Files/Pods-MeepMapTests/Pods-MeepMapTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5C832142988377C0042B491 /* MeepMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeepMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C832172988377C0042B491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5C832192988377C0042B491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		C5C832342988377C0042B491 /* MeepMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeepMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C832382988377C0042B491 /* MeepMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepMapUITests.swift; sourceTree = "<group>"; };
 		C5C8323A2988377C0042B491 /* MeepMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF74FF4E025D592E2D8C38D9 /* Pods_MeepMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34ACC7B15FE441AD38A9248 /* Pods-MeepMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMapTests.debug.xcconfig"; path = "Target Support Files/Pods-MeepMapTests/Pods-MeepMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D71C1B23B74AFC3EBA682561 /* Pods-MeepMap-MeepMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMap-MeepMapUITests.release.xcconfig"; path = "Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EBADC1BC8000BC633A78CF /* Pods_MeepMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88404F55B22DCC0996B8055C /* Pods_MeepMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25E6044618674B44363AA78 /* Pods_MeepMap_MeepMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71F41EA5D7335A83D00707C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FAEC9B2731E2569F8AC6CB /* Pods-MeepMap.debug.xcconfig */,
+				0352213516D7880CA18A3172 /* Pods-MeepMap.release.xcconfig */,
+				93FFF784994EE93FE16DFDE7 /* Pods-MeepMap-MeepMapUITests.debug.xcconfig */,
+				D71C1B23B74AFC3EBA682561 /* Pods-MeepMap-MeepMapUITests.release.xcconfig */,
+				D34ACC7B15FE441AD38A9248 /* Pods-MeepMapTests.debug.xcconfig */,
+				AE72BEBCAB8CD27B00C9B86D /* Pods-MeepMapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C5C8320B2988377C0042B491 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				C5C8322D2988377C0042B491 /* MeepMapTests */,
 				C5C832372988377C0042B491 /* MeepMapUITests */,
 				C5C832152988377C0042B491 /* Products */,
+				71F41EA5D7335A83D00707C9 /* Pods */,
+				EF318850A18ED130DB85724D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +157,16 @@
 			path = MeepMapUITests;
 			sourceTree = "<group>";
 		};
+		EF318850A18ED130DB85724D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF74FF4E025D592E2D8C38D9 /* Pods_MeepMap.framework */,
+				3438481E4F2C273F4727B320 /* Pods_MeepMap_MeepMapUITests.framework */,
+				0D29B4FCC2604DA48A360A1F /* Pods_MeepMapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C8323E2988377C0042B491 /* Build configuration list for PBXNativeTarget "MeepMap" */;
 			buildPhases = (
+				9B3C5BFD5D7078080193FEE7 /* [CP] Check Pods Manifest.lock */,
 				C5C832102988377C0042B491 /* Sources */,
 				C5C832112988377C0042B491 /* Frameworks */,
 				C5C832122988377C0042B491 /* Resources */,
+				6648F16F2EADCC3A6D2D12C3 /* [CP] Embed Pods Frameworks */,
+				A0E4ED92469269CE1C3032B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C832412988377C0042B491 /* Build configuration list for PBXNativeTarget "MeepMapTests" */;
 			buildPhases = (
+				7336120C4ABBD4D8C068DA8B /* [CP] Check Pods Manifest.lock */,
 				C5C832262988377C0042B491 /* Sources */,
 				C5C832272988377C0042B491 /* Frameworks */,
 				C5C832282988377C0042B491 /* Resources */,
@@ -169,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C832442988377C0042B491 /* Build configuration list for PBXNativeTarget "MeepMapUITests" */;
 			buildPhases = (
+				76DE16765A03EF820DE626EA /* [CP] Check Pods Manifest.lock */,
 				C5C832302988377C0042B491 /* Sources */,
 				C5C832312988377C0042B491 /* Frameworks */,
 				C5C832322988377C0042B491 /* Resources */,
+				76654C7BB289F697CBCFBD8A /* [CP] Embed Pods Frameworks */,
+				D4E9E577304FD3C9A3C77A37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6648F16F2EADCC3A6D2D12C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7336120C4ABBD4D8C068DA8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76654C7BB289F697CBCFBD8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76DE16765A03EF820DE626EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepMap-MeepMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3C5BFD5D7078080193FEE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E4ED92469269CE1C3032B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepMap/Pods-MeepMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E9E577304FD3C9A3C77A37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5C832102988377C0042B491 /* Sources */ = {
@@ -434,11 +618,13 @@
 		};
 		C5C8323F2988377C0042B491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FAEC9B2731E2569F8AC6CB /* Pods-MeepMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R6F2L6X58;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeepMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -461,11 +647,13 @@
 		};
 		C5C832402988377C0042B491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0352213516D7880CA18A3172 /* Pods-MeepMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R6F2L6X58;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeepMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -488,6 +676,7 @@
 		};
 		C5C832422988377C0042B491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34ACC7B15FE441AD38A9248 /* Pods-MeepMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +696,7 @@
 		};
 		C5C832432988377C0042B491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE72BEBCAB8CD27B00C9B86D /* Pods-MeepMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +716,7 @@
 		};
 		C5C832452988377C0042B491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FFF784994EE93FE16DFDE7 /* Pods-MeepMap-MeepMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +734,7 @@
 		};
 		C5C832462988377C0042B491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71C1B23B74AFC3EBA682561 /* Pods-MeepMap-MeepMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
