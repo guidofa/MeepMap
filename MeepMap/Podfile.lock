@@ -10,16 +10,18 @@ PODS:
   - Moya/RxSwift (15.0.0):
     - Moya/Core
     - RxSwift (~> 6.0)
-  - RxSwift (6.2.0)
+  - RxSwift (6.5.0)
   - SwiftLint (0.47.1)
-  - Swinject (2.7.1)
+  - Swinject (2.6.0)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
 
 DEPENDENCIES:
   - GoogleMaps
   - Moya/RxSwift (= 15.0.0)
-  - RxSwift (= 6.2.0)
   - SwiftLint
-  - Swinject (= 2.7.1)
+  - Swinject (= 2.6.0)
+  - SwinjectStoryboard (= 2.2.0)
 
 SPEC REPOS:
   trunk:
@@ -29,15 +31,17 @@ SPEC REPOS:
     - RxSwift
     - SwiftLint
     - Swinject
+    - SwinjectStoryboard
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
-  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
-  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: 459012ce0197b1e2ba2dec7a870f7f8c71c381f8
+PODFILE CHECKSUM: 493db10a27f3271186a78365444510f239e7cc07
 
 COCOAPODS: 1.11.3

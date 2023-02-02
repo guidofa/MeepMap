@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MeepMapViewController.swift
 //  MeepMap
 //
 //  Created by Guido Fabio on 30/1/23.
@@ -8,8 +8,17 @@
 import UIKit
 import GoogleMaps
 
-class ViewController: UIViewController {
+protocol MeepMapView: AnyObject {
+    
+}
 
+class MeepMapViewController: BaseViewController<MeepMapPresenter> {
+    
+    override func loadView() {
+        super.loadView()
+        self.loadNibFor(viewControllerClass: MeepMapViewController.self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,4 +37,18 @@ class ViewController: UIViewController {
         marker.map = mapView
     }
 
+}
+
+extension UIViewController {
+    
+    func loadNibFor<Subject>(viewControllerClass: Subject) {
+        loadNib(name: String(describing: viewControllerClass))
+    }
+    
+    func loadNib(name: String) {
+        let customView = Bundle.main.loadNibNamed(name, owner: self, options: nil)?.first as? UIView
+        customView?.frame = self.view.bounds
+        customView?.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(customView!)
+    }
 }

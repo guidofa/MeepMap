@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		12EBADC1BC8000BC633A78CF /* Pods_MeepMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF74FF4E025D592E2D8C38D9 /* Pods_MeepMap.framework */; };
 		88404F55B22DCC0996B8055C /* Pods_MeepMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D29B4FCC2604DA48A360A1F /* Pods_MeepMapTests.framework */; };
-		C5C832182988377C0042B491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832172988377C0042B491 /* AppDelegate.swift */; };
-		C5C8321A2988377C0042B491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832192988377C0042B491 /* SceneDelegate.swift */; };
-		C5C8321C2988377C0042B491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8321B2988377C0042B491 /* ViewController.swift */; };
-		C5C8321F2988377C0042B491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C8321D2988377C0042B491 /* Main.storyboard */; };
+		C599BE06298BAFC800436DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE05298BAFC800436DBC /* AppDelegate.swift */; };
+		C599BE0C298BB02D00436DBC /* DataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE09298BB02D00436DBC /* DataModule.swift */; };
+		C599BE0D298BB02D00436DBC /* ApplicationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE0A298BB02D00436DBC /* ApplicationModule.swift */; };
+		C599BE0E298BB02D00436DBC /* ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE0B298BB02D00436DBC /* ViewModule.swift */; };
+		C599BE19298BB18A00436DBC /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE18298BB18A00436DBC /* Wireframe.swift */; };
+		C599BE1B298BB20300436DBC /* UIWindow+ReplaceRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */; };
+		C599BE1F298BB36200436DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C599BE1E298BB36200436DBC /* LaunchScreen.storyboard */; };
+		C599BE21298BB3E100436DBC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE20298BB3E100436DBC /* BaseViewController.swift */; };
+		C599BE23298BB3EB00436DBC /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE22298BB3EB00436DBC /* BasePresenter.swift */; };
+		C599BE25298BB52700436DBC /* MeepMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE24298BB52700436DBC /* MeepMapPresenter.swift */; };
+		C599BE27298C437500436DBC /* MeepMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C599BE26298C437500436DBC /* MeepMapViewController.xib */; };
+		C5C8321C2988377C0042B491 /* MeepMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8321B2988377C0042B491 /* MeepMapViewController.swift */; };
 		C5C832212988377C0042B491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C832202988377C0042B491 /* Assets.xcassets */; };
-		C5C832242988377C0042B491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C832222988377C0042B491 /* LaunchScreen.storyboard */; };
 		C5C8322F2988377C0042B491 /* MeepMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8322E2988377C0042B491 /* MeepMapTests.swift */; };
 		C5C832392988377C0042B491 /* MeepMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C832382988377C0042B491 /* MeepMapUITests.swift */; };
 		C5C8323B2988377C0042B491 /* MeepMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8323A2988377C0042B491 /* MeepMapUITestsLaunchTests.swift */; };
@@ -46,13 +53,20 @@
 		3438481E4F2C273F4727B320 /* Pods_MeepMap_MeepMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepMap_MeepMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FFF784994EE93FE16DFDE7 /* Pods-MeepMap-MeepMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMap-MeepMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeepMap-MeepMapUITests/Pods-MeepMap-MeepMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE72BEBCAB8CD27B00C9B86D /* Pods-MeepMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepMapTests.release.xcconfig"; path = "Target Support Files/Pods-MeepMapTests/Pods-MeepMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		C599BE05298BAFC800436DBC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C599BE09298BB02D00436DBC /* DataModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModule.swift; sourceTree = "<group>"; };
+		C599BE0A298BB02D00436DBC /* ApplicationModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationModule.swift; sourceTree = "<group>"; };
+		C599BE0B298BB02D00436DBC /* ViewModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModule.swift; sourceTree = "<group>"; };
+		C599BE18298BB18A00436DBC /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ReplaceRoot.swift"; sourceTree = "<group>"; };
+		C599BE1E298BB36200436DBC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C599BE20298BB3E100436DBC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C599BE22298BB3EB00436DBC /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		C599BE24298BB52700436DBC /* MeepMapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepMapPresenter.swift; sourceTree = "<group>"; };
+		C599BE26298C437500436DBC /* MeepMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeepMapViewController.xib; sourceTree = "<group>"; };
 		C5C832142988377C0042B491 /* MeepMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeepMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5C832172988377C0042B491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5C832192988377C0042B491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5C8321B2988377C0042B491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5C8321E2988377C0042B491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5C8321B2988377C0042B491 /* MeepMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepMapViewController.swift; sourceTree = "<group>"; };
 		C5C832202988377C0042B491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C5C832232988377C0042B491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C832252988377C0042B491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5C8322A2988377C0042B491 /* MeepMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeepMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C8322E2988377C0042B491 /* MeepMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepMapTests.swift; sourceTree = "<group>"; };
@@ -106,6 +120,60 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C527453B298B2D1300D9AE81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE18298BB18A00436DBC /* Wireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		C599BE04298BAFC800436DBC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE05298BAFC800436DBC /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C599BE07298BB02D00436DBC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE04298BAFC800436DBC /* AppDelegate */,
+				C599BE28298C4FBD00436DBC /* Utils */,
+				C599BE08298BB02D00436DBC /* DI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C599BE08298BB02D00436DBC /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE0A298BB02D00436DBC /* ApplicationModule.swift */,
+				C599BE09298BB02D00436DBC /* DataModule.swift */,
+				C599BE0B298BB02D00436DBC /* ViewModule.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		C599BE0F298BB08400436DBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE1E298BB36200436DBC /* LaunchScreen.storyboard */,
+				C599BE20298BB3E100436DBC /* BaseViewController.swift */,
+				C599BE22298BB3EB00436DBC /* BasePresenter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C599BE28298C4FBD00436DBC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		C5C8320B2988377C0042B491 = {
 			isa = PBXGroup;
 			children = (
@@ -131,10 +199,10 @@
 		C5C832162988377C0042B491 /* MeepMap */ = {
 			isa = PBXGroup;
 			children = (
+				C599BE07298BB02D00436DBC /* Core */,
 				C5D122E12988480E00746B89 /* Presentation */,
 				C5D122E02988480900746B89 /* Data */,
 				C5D122DF2988480400746B89 /* Domain */,
-				C5D122DE298847FE00746B89 /* Core */,
 				C5C832202988377C0042B491 /* Assets.xcassets */,
 				C5C832252988377C0042B491 /* Info.plist */,
 				C5D122DC298846A300746B89 /* keys.plist */,
@@ -159,13 +227,6 @@
 			path = MeepMapUITests;
 			sourceTree = "<group>";
 		};
-		C5D122DE298847FE00746B89 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		C5D122DF2988480400746B89 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,11 +244,11 @@
 		C5D122E12988480E00746B89 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				C5C832172988377C0042B491 /* AppDelegate.swift */,
-				C5C832222988377C0042B491 /* LaunchScreen.storyboard */,
-				C5C8321D2988377C0042B491 /* Main.storyboard */,
-				C5C8321B2988377C0042B491 /* ViewController.swift */,
-				C5C832192988377C0042B491 /* SceneDelegate.swift */,
+				C599BE0F298BB08400436DBC /* Base */,
+				C527453B298B2D1300D9AE81 /* Wireframe */,
+				C5C8321B2988377C0042B491 /* MeepMapViewController.swift */,
+				C599BE24298BB52700436DBC /* MeepMapPresenter.swift */,
+				C599BE26298C437500436DBC /* MeepMapViewController.xib */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -315,9 +376,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D122DD298846A300746B89 /* keys.plist in Resources */,
-				C5C832242988377C0042B491 /* LaunchScreen.storyboard in Resources */,
+				C599BE1F298BB36200436DBC /* LaunchScreen.storyboard in Resources */,
+				C599BE27298C437500436DBC /* MeepMapViewController.xib in Resources */,
 				C5C832212988377C0042B491 /* Assets.xcassets in Resources */,
-				C5C8321F2988377C0042B491 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,9 +557,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C8321C2988377C0042B491 /* ViewController.swift in Sources */,
-				C5C832182988377C0042B491 /* AppDelegate.swift in Sources */,
-				C5C8321A2988377C0042B491 /* SceneDelegate.swift in Sources */,
+				C599BE0D298BB02D00436DBC /* ApplicationModule.swift in Sources */,
+				C599BE23298BB3EB00436DBC /* BasePresenter.swift in Sources */,
+				C599BE25298BB52700436DBC /* MeepMapPresenter.swift in Sources */,
+				C5C8321C2988377C0042B491 /* MeepMapViewController.swift in Sources */,
+				C599BE19298BB18A00436DBC /* Wireframe.swift in Sources */,
+				C599BE1B298BB20300436DBC /* UIWindow+ReplaceRoot.swift in Sources */,
+				C599BE06298BAFC800436DBC /* AppDelegate.swift in Sources */,
+				C599BE21298BB3E100436DBC /* BaseViewController.swift in Sources */,
+				C599BE0C298BB02D00436DBC /* DataModule.swift in Sources */,
+				C599BE0E298BB02D00436DBC /* ViewModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,25 +601,6 @@
 			targetProxy = C5C832352988377C0042B491 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C5C8321D2988377C0042B491 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5C8321E2988377C0042B491 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C5C832222988377C0042B491 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5C832232988377C0042B491 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C5C8323C2988377C0042B491 /* Debug */ = {
@@ -683,7 +732,7 @@
 				INFOPLIST_FILE = MeepMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -712,7 +761,7 @@
 				INFOPLIST_FILE = MeepMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
