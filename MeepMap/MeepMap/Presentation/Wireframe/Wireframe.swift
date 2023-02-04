@@ -5,7 +5,6 @@
 //  Created by Guido Fabio on 2/2/23.
 //
 
-import Swinject
 import SwinjectStoryboard
 
 protocol Wireframe {
@@ -13,10 +12,10 @@ protocol Wireframe {
 }
 
 final class WireframeImpl: Wireframe {
+    
     // MARK: - Start App navigation
     
     func start() {
-        
         guard let viewController = SwinjectStoryboard.defaultContainer.resolve(MeepMapViewController.self),
         let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             fatalError("Couldn't instantiate MeepMapViewController")
@@ -25,6 +24,6 @@ final class WireframeImpl: Wireframe {
         if let window = appDelegate.window {
             window.replaceRootViewControllerWith(viewController, animated: true, completion: nil)
         }
-        
-    }   
+    }
+    
 }

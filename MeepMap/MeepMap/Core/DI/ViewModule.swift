@@ -30,7 +30,8 @@ class ViewModule: ViewModuleProtocol {
     
     func resolvePresenters(container: Container) {
         container.register(MeepMapPresenter.self) { resolver in
-            MeepMapPresenter(wireframe: resolver.resolve(Wireframe.self)!)
+            MeepMapPresenter(getMarkersUseCase: resolver.resolve(GetMarkersUseCase.self)!,
+                             wireframe: resolver.resolve(Wireframe.self)!)
         }
     }
     

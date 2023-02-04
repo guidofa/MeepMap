@@ -19,10 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configureGoogleMaps()
         window = UIWindow(frame: UIScreen.main.bounds)
         startNavigation()
-//        guard let vc = SwinjectStoryboard.defaultContainer.resolve(MeepMapViewController.self) else {
-//            fatalError("Couldn't instantiate MeepMapViewController")
-//        }
-//        window?.replaceRootViewControllerWith(UINavigationController(rootViewController: vc), animated: true, completion: nil)
+
         return true
     }
     

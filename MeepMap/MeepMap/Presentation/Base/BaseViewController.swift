@@ -37,3 +37,18 @@ class BaseViewController<P: BasePresenter>: UIViewController, BaseView {
         presenter.viewWillDisappear(animated)
     }
 }
+
+extension UIViewController {
+    
+    func loadNibFor<Subject>(viewControllerClass: Subject) {
+        loadNib(name: String(describing: viewControllerClass))
+    }
+    
+    func loadNib(name: String) {
+        let customView = Bundle.main.loadNibNamed(name, owner: self, options: nil)?.first as? UIView
+        customView?.frame = self.view.bounds
+        customView?.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(customView!)
+    }
+    
+}
