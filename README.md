@@ -36,4 +36,5 @@ MeepMap is available under the MIT license. See LICENSE for more information.
 
 Copyright
 Icons from www.flaticon.es/.
+  
 Copyright © 2023 Guido Fabio
