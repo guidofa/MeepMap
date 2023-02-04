@@ -12,14 +12,14 @@ MeepMap uses Clean Architecture, which is a set of principles that separate the 
 This separation of concerns makes the code easier to understand, maintain, and test.
 
 # Installation
-## Clone the repository
+### Clone the repository
 * $ git clone https://github.com/<username>/MeepMap.git
 
-## Install dependencies
+### Install dependencies
 * $ cd MeepMap
 * $ pod install
 
-## Open the project in Xcode
+### Open the project in Xcode
 * $ open MeepMap.xcworkspace
 Build and run the app on a simulator or a device
 
