@@ -16,15 +16,18 @@ protocol NetworkManager {
 
 class NetworkManagerImpl: NetworkManager {
 
+    // MARK: - Private properties
     private let provider: MoyaProvider<MultiTarget>
     private static var baseUrlFromConfiguration: String?
     private static var labelsUrlFromConfiguration: String?
     private static let baseUrl = "https://api.meep.me"
     
+    // MARK: - Init
     init (provider: MoyaProvider<MultiTarget>) {
         self.provider = provider
     }
     
+    // MARK: - Public methods
     func makeRequest(_ target: TargetType) -> Single<Response> {
         return self.provider.rx.request(MultiTarget(target))
     }

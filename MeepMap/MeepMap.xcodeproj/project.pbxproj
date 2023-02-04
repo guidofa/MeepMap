@@ -14,7 +14,6 @@
 		C599BE0D298BB02D00436DBC /* ApplicationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE0A298BB02D00436DBC /* ApplicationModule.swift */; };
 		C599BE0E298BB02D00436DBC /* ViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE0B298BB02D00436DBC /* ViewModule.swift */; };
 		C599BE19298BB18A00436DBC /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE18298BB18A00436DBC /* Wireframe.swift */; };
-		C599BE1B298BB20300436DBC /* UIWindow+ReplaceRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */; };
 		C599BE1F298BB36200436DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C599BE1E298BB36200436DBC /* LaunchScreen.storyboard */; };
 		C599BE21298BB3E100436DBC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE20298BB3E100436DBC /* BaseViewController.swift */; };
 		C599BE23298BB3EB00436DBC /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C599BE22298BB3EB00436DBC /* BasePresenter.swift */; };
@@ -70,7 +69,6 @@
 		C599BE0A298BB02D00436DBC /* ApplicationModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationModule.swift; sourceTree = "<group>"; };
 		C599BE0B298BB02D00436DBC /* ViewModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModule.swift; sourceTree = "<group>"; };
 		C599BE18298BB18A00436DBC /* Wireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
-		C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+ReplaceRoot.swift"; sourceTree = "<group>"; };
 		C599BE1E298BB36200436DBC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C599BE20298BB3E100436DBC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C599BE22298BB3EB00436DBC /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				C599BE04298BAFC800436DBC /* AppDelegate */,
-				C599BE28298C4FBD00436DBC /* Utils */,
 				C599BE08298BB02D00436DBC /* DI */,
 			);
 			path = Core;
@@ -188,14 +185,6 @@
 				C599BE22298BB3EB00436DBC /* BasePresenter.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		C599BE28298C4FBD00436DBC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				C599BE1A298BB20300436DBC /* UIWindow+ReplaceRoot.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		C599BE29298C518600436DBC /* Entity */ = {
@@ -694,7 +683,6 @@
 				C599BE4A298DFDD700436DBC /* MarkerMapper.swift in Sources */,
 				C599BE3F298DA68400436DBC /* MarkerRequest.swift in Sources */,
 				C599BE19298BB18A00436DBC /* Wireframe.swift in Sources */,
-				C599BE1B298BB20300436DBC /* UIWindow+ReplaceRoot.swift in Sources */,
 				C599BE39298DA35C00436DBC /* BaseDataRepository.swift in Sources */,
 				C599BE2E298D9F9A00436DBC /* MarkerModel.swift in Sources */,
 				C599BE06298BAFC800436DBC /* AppDelegate.swift in Sources */,

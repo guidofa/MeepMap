@@ -11,13 +11,16 @@ import Foundation
 
 class MarkersDataRepository: BaseDataRepository, MarkersRepository {
     
+    // MARK: - Private properties
     private let markerMapper: MarkerMapper?
     
+    // MARK: - Init
     init(markerMapper: MarkerMapper, networkManager: NetworkManager) {
         self.markerMapper = markerMapper
         super.init(networkManager: networkManager)
     }
 
+    // MARK: - Public methods
     func getMarkersByCoordinates(lowerLeftLanLon: String, upperRightLatLon: String) -> Single<[MarkerModel]> {
         let request = MarkerRequest(lowerLeftLatLon: lowerLeftLanLon, upperRightLatLon: upperRightLatLon)
         

@@ -14,7 +14,6 @@ protocol Wireframe {
 final class WireframeImpl: Wireframe {
     
     // MARK: - Start App navigation
-    
     func start() {
         guard let viewController = SwinjectStoryboard.defaultContainer.resolve(MeepMapViewController.self),
         let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
@@ -22,7 +21,8 @@ final class WireframeImpl: Wireframe {
         }
       
         if let window = appDelegate.window {
-            window.replaceRootViewControllerWith(viewController, animated: true, completion: nil)
+            window.rootViewController = viewController
+            window.makeKeyAndVisible()
         }
     }
     

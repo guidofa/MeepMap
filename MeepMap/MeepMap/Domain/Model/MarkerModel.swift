@@ -7,9 +7,9 @@
 
 import Foundation
 
-enum MarkerType {
-    case bike
-    case bus
+enum MarkerType: Int {
+    case bike = 412
+    case bus = 378
     case generic
 }
 

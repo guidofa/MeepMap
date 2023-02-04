@@ -36,6 +36,7 @@ extension AppDelegate {
     func configureGoogleMaps() {
         var keys: NSDictionary?
         
+        // Geting the apiKey from keys plist. This file is going to be ignored by git.
         if let path = Bundle.main.path(forResource: "keys", ofType: "plist") {
             keys = NSDictionary(contentsOfFile: path)
         }

@@ -19,6 +19,8 @@ class MeepMapViewController: BaseViewController<MeepMapPresenter> {
         static let latitudeLisboa = 38.716671
         static let longitudeLisboa = -9.1333303
         static let initZoom: Float = 15.0
+        static let busImageName = "bus"
+        static let bicycleImageName = "bicycle"
     }
     
     // MARK: - Private Properties
@@ -35,7 +37,8 @@ class MeepMapViewController: BaseViewController<MeepMapPresenter> {
         super.viewDidLoad()
         mapSetup()
     }
-        
+    
+    // MARK: - Private methods
     private func mapSetup() {
         let camera = GMSCameraPosition.camera(withLatitude: Constants.latitudeLisboa,
                                               longitude: Constants.longitudeLisboa,
@@ -51,6 +54,7 @@ class MeepMapViewController: BaseViewController<MeepMapPresenter> {
     
 }
 
+// MARK: - GMSMapViewDelegate
 extension MeepMapViewController: GMSMapViewDelegate {
     
     func mapView(_ mapView: GMSMapView, idleAt position: GMSCameraPosition) {
@@ -64,10 +68,10 @@ extension MeepMapViewController: GMSMapViewDelegate {
     
 }
 
+// MARK: - MeepMapView
 extension MeepMapViewController: MeepMapView {
     
     func updateMarkers(markers: [MarkerModel]) {
-        
         for marker in markers {
             guard let longitude = marker.x, let latitude = marker.y else { return }
             
@@ -76,13 +80,13 @@ extension MeepMapViewController: MeepMapView {
             
             switch marker.markerType {
             case .bike:
-                gmsMarker.icon = UIImage.init(named: "bicycle")
+                gmsMarker.icon = UIImage.init(named: Constants.bicycleImageName)
                 guard let bikesAvailable = marker.bikesAvailable,
                       let spacesAvailable = marker.spacesAvailable else { return }
                 
                 gmsMarker.snippet = "Bikes available: \(bikesAvailable)\nSpaces available: \(spacesAvailable)"
             case .bus:
-                gmsMarker.icon = UIImage.init(named: "bus")
+                gmsMarker.icon = UIImage.init(named: Constants.busImageName)
                 
                 gmsMarker.snippet = marker.id
             case .generic:
@@ -90,9 +94,7 @@ extension MeepMapViewController: MeepMapView {
             }
             
             gmsMarker.map = self.mapView
-            
         }
-        
     }
     
 }

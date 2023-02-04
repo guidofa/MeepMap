@@ -15,17 +15,12 @@ class MarkerMapperImpl: MarkerMapper {
     
     func createMarkerModel(marker: MarkerEntity) -> MarkerModel {
         
-        enum Constants {
-            static let busId = 378
-            static let bikeId = 412
-        }
-        
         var markerType: MarkerType = .generic
         
         switch marker.companyZoneId {
-        case Constants.busId:
+        case MarkerType.bus.rawValue:
             markerType = .bus
-        case Constants.bikeId:
+        case MarkerType.bike.rawValue:
             markerType = .bike
         case .none, .some:
             markerType = .generic
