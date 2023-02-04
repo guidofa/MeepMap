@@ -14,7 +14,6 @@ protocol MarkerMapper: AnyObject {
 class MarkerMapperImpl: MarkerMapper {
     
     func createMarkerModel(marker: MarkerEntity) -> MarkerModel {
-        
         var markerType: MarkerType = .generic
         
         switch marker.companyZoneId {
