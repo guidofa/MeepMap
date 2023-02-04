@@ -23,13 +23,13 @@ This separation of concerns makes the code easier to understand, maintain, and t
 * $ open MeepMap.xcworkspace
 Build and run the app on a simulator or a device
 
-# Thirdparty libraries used in this project
+# Thirdparty libraries used in this project and for what.
 
-* Swiftlint: clean code.
-* RxSwift: reactive programming.
+* Swiftlint: Clean code.
+* RxSwift: Reactive programming.
 * Moya: Network management.
-* GoogleMaps: map library.
-* Swinject: dependency injection.
+* GoogleMaps: Map library.
+* Swinject: Dependency injection.
 
 # License
 MeepMap is available under the MIT license. See LICENSE for more information.
