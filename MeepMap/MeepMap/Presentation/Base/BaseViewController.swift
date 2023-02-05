@@ -15,12 +15,10 @@ protocol BaseView: AnyObject {
 class BaseViewController<P: BasePresenter>: UIViewController, BaseView {
     
     // MARK: Section - Vars
-    
     typealias Presenter = P
     var presenter: Presenter!
     
-    // MARK: Section - UIViewController
-    
+    // MARK: Section - UIViewController    
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.attachView(view: self)

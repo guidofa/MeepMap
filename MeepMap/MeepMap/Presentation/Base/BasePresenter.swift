@@ -17,14 +17,17 @@ protocol BasePresenterProtocol {
 
 class BasePresenter: BasePresenterProtocol {
     
-    internal weak var baseView: BaseView?
-    internal let disposeBag: DisposeBag = DisposeBag()
-    internal let wireframe: Wireframe
+    // MARK: - Public properties
+    weak var baseView: BaseView?
+    let disposeBag: DisposeBag = DisposeBag()
+    let wireframe: Wireframe
     
+    // MARK: - Init
     init(wireframe: Wireframe) {
         self.wireframe = wireframe
     }
     
+    // MARK: - Life cycle
     func viewDidLoad() { }
     func viewWillAppear(_ animated: Bool) { }
     func viewWillDisappear(_ animated: Bool) {}
